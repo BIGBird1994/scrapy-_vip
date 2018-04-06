@@ -8,7 +8,7 @@ import requests
 class FetchProxy(object):
 
     def __init__(self):
-        self.r = Redis(host='114.112.107.58',port=6379,password="1x2yxtabc")
+        self.r = Redis(host='localhost')
 
     def get_proxy(self):
         print("获取proxy")
